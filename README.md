@@ -243,7 +243,7 @@ cd signwithed25519
 go install
 ```
 
-***The Tricky Part***
+# The Tricky Part
 You'll need to use your wallet's private key as well as the serveridentity and signwithed22519
 to create your server identity and generate the private keys for your server. This is best done offline
 in a secure facility with two factor entry authentication and a blind guy who knows kong-fu. If you don't
