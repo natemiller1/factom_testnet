@@ -323,13 +323,13 @@ If you don't know the management ID, go to: http://136.144.191.225:8090 and sear
 
 *Update coinbase address*
 
-# Parameters: <Identity root chain ID> <FCT public address> <SK1 private key> <Paying private EC address>
+#Parameters: <Identity root chain ID> <FCT public address> <SK1 private key> <Paying private EC address>
 
 ```factom-identity-cli update-coinbase-address -s localhost:8088 .....```
 
 *Update efficiency*
 
-# Parameters: <Identity root chain ID> <Efficiency> <SK1 private key> <Paying private EC address>
+#Parameters: <Identity root chain ID> <Efficiency> <SK1 private key> <Paying private EC address>
 
  ```factom-identity-cli update-efficiency -s localhost:8088 ...```
  
@@ -338,7 +338,7 @@ If you don't know the management ID, go to: http://136.144.191.225:8090 and sear
  ```factom-identity-cli get -s localhost:8088 <ChainID>```
  
  
-#Brainswap
+# Brainswap
 Brainswapping is the idea of having 2 nodes switch identities at the same time. We call is "brainswapping" because a node's identity dictates how it behaves.
 
 Note: The procedure doesn't actually have to be a "swap"; a "brain-transfer" is also an alternative.
